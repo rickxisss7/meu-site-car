@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Kalam:wght@300;400;700&family=Merienda&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Tektur:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Kalam:wght@300;400;700&family=Merienda&family=Oswald:wght@200..700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Tektur:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Germania+One&family=Kalam:wght@300;400;700&family=Merienda&family=Oswald:wght@200..700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Tektur:wght@400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&family=Germania+One&family=Kalam:wght@300;400;700&family=Kurale&family=Merienda&family=Oswald:wght@200..700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Tektur:wght@400..900&display=swap');
+
+
+
+body {
+text-align: center;
+background-image: linear-gradient(to bottom, rgb(238, 255, 0), rgb(168, 168, 18));
+height: 100vh;
+margin: auto;
+overflow: hidden
+}
+
+.contt {
+    text-align: center;
+    background-image: linear-gradient(to top, rgb(15, 15, 15), rgb(126, 126, 126));
+    height: 100vh;
+    margin: auto;
+    overflow: hidden
+    }
+
+
+h1 {
+top: -25px;
+position: fixed;
+left: 15px;
+font-family:"Prompt", sans-serif;
+color: rgb(19, 18, 6);
+
+
+}
+
+h2 {
+    color: black;
+position: relative;
+font-family:"prompt",arial;
+top: 158px;
+right: 102px;
+border-radius: 15px;
+margin: auto;
+padding: 10px;
+}
+
+
+.corvete {
+position: absolute;
+top: 40%;
+transform: translateY(-15%);
+transform: translateX(-49%);
+animation-duration: 3s;
+width: 100%;
+max-width: 650px;
+min-width: 290px;
+}
+
+main {
+    position: relative;
+    color: rgb(0, 0, 0);
+font-family:"prompt";
+font-weight: 300;
+right: 110px;
+top: 110px;
+
+}
+
+.video {          
+position: absolute;
+bottom: 15%;
+padding: 5px 5px;
+transform: translateX(710%);
+border-bottom: 50% azure;
+transition: 0,3s;
+cursor: pointer;
+border-radius: 100px;
+
+}
+
+.video:hover{
+background-color: rgb(126, 126, 126);
+}
+
+.inf {
+    position: absolute;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: rgb(41, 39, 11); /* Cor do texto */
+    border: none; /* Sem borda */
+    padding: 10px 10px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho do texto */
+    cursor: pointer; /* Muda o cursor ao passar por cima */
+    border-radius: 50px; 
+    transition: 0.3s; /* Animação suave */
+ margin-left: -45%;
+  transform: translateY(490px);
+
+   
+  
+  
+
+
+
+}
+
+.inf:hover {
+background-color: rgb(216, 216, 216);
+
+}
+
+ h4 {
+letter-spacing: 2px;
+font-family: "Prompt", sans-serif;
+font-weight: 100px;
+color: rgb(0, 0, 0);
+font-weight: 600;
+text-decoration: none;
+
+ }
+
+ 
+ .t1a {
+    top: 10px;
+    padding: 5px 5px;
+    position: fixed;
+    border: none;
+    border-radius: 50px;
+ margin-top: 10px;
+ transform: translateX(600px);
+
+}
+
+.t1a:hover {
+background-color: rgb(199, 196, 8);
+
+}
+
+
+.t2a {
+    top: 10px;
+    position: fixed;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 50px;
+ margin-top: 10px;
+ transform: translateX(1000px);
+
+}
+
+.t2a:hover {
+    background-color: rgb(199, 196, 8);
+
+}
+    
+
+
+.t3a {
+    top: 10px;
+    position: fixed;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 50px;
+ margin-top: 10px;
+ transform: translateX(800px);
+
+ }
+
+ .t3a:hover {
+    background-color: rgb(199, 196, 8);
+}
