@@ -8,7 +8,7 @@
 
 body {
 text-align: center;
-background-image: linear-gradient(to top, rgb(56, 56, 56), rgb(0, 0, 0));
+background-image: linear-gradient(to top, rgb(51, 51, 51), rgb(29, 29, 29), rgb(0, 0, 0));
 height: 100vh;
 margin: auto;
 overflow: hidden;
