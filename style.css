@@ -11,6 +11,7 @@ text-align: center;
 background-image: linear-gradient(to top, rgb(56, 56, 56), rgb(0, 0, 0));
 height: 100vh;
 margin: auto;
+overflow: hidden;
 
 }
 
@@ -24,9 +25,10 @@ margin: auto;
 
 
 h1 {
-top: -25px;
+top: -10px;
 position: fixed;
-left: 15px;
+left: 20px;
+font-size: 22px;
 font-family:"Prompt", sans-serif;
 color: rgb(255, 208, 0);
 }
@@ -44,7 +46,7 @@ h2 {
 position: relative;
 font-family:"prompt",arial;
 top: 158px;
-right: 40px;
+right: 38px;
 margin: auto;
 padding: 10px;
 
@@ -53,7 +55,7 @@ padding: 10px;
 
 .corvete {
 position: absolute;
-top: 43%;
+top: 45%;
 transform: translateX(-50%);
 animation-duration: 3s;
 width: 100%;
@@ -67,7 +69,7 @@ main {
     color: rgb(196, 196, 196);
 font-family:"prompt";
 font-weight: 200;
-right: 40px;
+right: 38px;
 top: 110px;
 
 }
@@ -101,6 +103,7 @@ background-color: rgb(238, 70, 70);
     transition: 0.3s; /* Animação suave */
  margin-left: -45%;
   transform: translateY(490px);
+ 
 
    
   
@@ -113,6 +116,7 @@ background-color: rgb(238, 70, 70);
 .inf:hover {
 background-color: rgb(37, 37, 37);
 color: rgb(255, 252, 252);
+animation-delay: 5s;
 }
 
  h4 {
