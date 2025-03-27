@@ -44,7 +44,7 @@ h2 {
 position: relative;
 font-family:"prompt",arial;
 top: 158px;
-right: 60px;
+right: 40px;
 margin: auto;
 padding: 10px;
 
@@ -67,7 +67,7 @@ main {
     color: rgb(196, 196, 196);
 font-family:"prompt";
 font-weight: 200;
-right: 60px;
+right: 40px;
 top: 110px;
 
 }
