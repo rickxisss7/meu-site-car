@@ -11,7 +11,7 @@ text-align: center;
 background-image: linear-gradient(to top, rgb(56, 56, 56), rgb(0, 0, 0));
 height: 100vh;
 margin: auto;
-overflow: hidden
+
 }
 
 .contt {
@@ -44,7 +44,7 @@ h2 {
 position: relative;
 font-family:"prompt",arial;
 top: 158px;
-right: 80px;
+right: 60px;
 margin: auto;
 padding: 10px;
 
@@ -67,7 +67,7 @@ main {
     color: rgb(196, 196, 196);
 font-family:"prompt";
 font-weight: 200;
-right: 80px;
+right: 60px;
 top: 110px;
 
 }
